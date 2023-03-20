@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Пример формы</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UFT-8 "/>
+	</head>
+	<body>
+		<form action="cgi.py" method="get">
+			<div>
+				<p>Имя</p>
+				<input tabindex="1" name="username" type="text" />
+			</div>
+			<div>
+				<p>Телефон</p>
+				<input tabindex="2" name="userphone" type="tel" />
+			</div>
+			<div>
+				<p>Пол</p>
+				<div>
+					<input tabindex="3" checked name="gender" type="radio" value="None" /> Не выбрано
+				</div>
+				<div>
+					<input tabindex="3" name="gender" type="radio" value="male" /> Мужской
+				</div>
+				<div>
+					<input tabindex="3" name="gender" type="radio" value="female" /> Женский
+				</div>
+			</div>
+			<div>
+				<p>Действия</p>
+				<button tabindex="4" type="submit">Найти</button>
+				<button tabindex="5" type="reset">Очистить</button>
+			</div>
+		</form>
+	</body>
+</html>

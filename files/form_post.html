@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Пример формы</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UFT-8 "/>
+	</head>
+	<body>
+		<form action="form_post.html" method="post">
+			<div>
+				<p>Имя</p>
+				<input tabindex="1" name="username" type="text" />
+			</div>
+			<div>
+				<p>Пароль</p>
+				<input tabindex="2" name="userpass" type="password" />
+			</div>
+			<div>
+				<p>Телефон</p>
+				<input tabindex="3" name="userphone" type="tel" />
+			</div>
+			<div>
+				<p>Пол</p>
+				<div>
+					<input tabindex="4" checked name="gender" type="radio" value="male" /> Мужской
+				</div>
+				<div>
+					<input tabindex="4" name="gender" type="radio" value="female" /> Женский
+				</div>
+			</div>
+			<div>
+				<p>Действия</p>
+				<button tabindex="5" type="submit">Отправить</button>
+				<button tabindex="6" type="reset">Очистить</button>
+			</div>
+			<div>
+				<a style="font-size: 120%; color: black; text-decoration: none;" href="index.html">Главная</a>
+			</div>
+		</form>
+	</body>
+</html>
